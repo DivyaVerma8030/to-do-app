@@ -1,0 +1,35 @@
+#heading{
+  background-color:mediumblue;
+  color:white;
+}
+.left{
+  background-color: navy;
+}
+#input1{
+  width:450px;
+}
+textarea{
+  width:450px;
+}
+#btn{
+  width: 450px;
+}
+.row1{
+  background-color: navy;
+  text-align: center;
+  color: white;
+}
+.row2{
+  background-color:whitesmoke;
+}
+#t1{
+  top:0px;
+  margin-top: 0em;
+  background-color:#D9DDE6;
+}
+#td1{
+  padding-left: 50px;
+}
+#td2{
+  padding-right: 50px;
+}

@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="heading">
+  <h1 align="center">To-do App</h1>
+</nav>
+<table height=100px width=500px id="t1">
+  <tr><td class="td2">
+    <div class="left" align="center">
+      <br>
+      <input  type="text" class="form-control" placeholder="Title" [(ngModel)]="task" id="input1" >
+      <br>
+      <textarea rows="21" cols="50" class="form-control" placeholder="Description" [(ngModel)]="description">
+        </textarea>
+        <br>
+        <button class="btn btn-primary" (click)="addTask()" id="btn">Add Task</button>
+      <!--<p *ngIf="!temp">Field(s) can't be empty</p>-->
+    </div>
+  </td>
+  <td id="td1">
+    <!--<div *ngIf="temp">-->
+        <div  *ngFor="let element of tasks;let i=index" class="right"> 
+          <table height=100px width=800px>
+            <tr class="row1">{{ element.name }}
+            </tr>
+            <tr class="row2">{{ element.desc }}</tr>
+            <tr class="row1"><td><button type="button" class="btn btn-default btn-large" (click)="tasks.splice(i,1)">Delete</button></td></tr>
+          </table>
+          <br>
+        <!--</div>-->
+        </div>
+        </td>
+  </tr>
+</table>
+  
