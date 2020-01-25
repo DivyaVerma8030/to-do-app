@@ -21,11 +21,13 @@ textarea{
 }
 .row2{
   background-color:whitesmoke;
+  height:50px;
 }
 #t1{
   top:0px;
   margin-top: 0em;
   background-color:#D9DDE6;
+  margin-left:20px;
 }
 #td1{
   padding-left: 50px;
